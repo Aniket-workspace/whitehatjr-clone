@@ -1,0 +1,548 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+body {
+    background-color: rgb(254, 254, 254);
+    font-family: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ........ nav bar........... */
+.nav-bar {
+    box-shadow: 0px 5px 10px 0px #aaa;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    color: #000;
+    height: 95px;
+    z-index: 12;
+    padding-top: 10px;
+    position: fixed;
+}
+
+
+
+.menu-items {
+    display: inline-block;
+    padding: 14px;
+}
+
+.menu-items li {
+    list-style: none;
+    margin-left: 40px;
+    margin-bottom: 8px;
+    font-size: 15px;
+    display: inline-block;
+}
+.menu-items .sub{
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-right: 50px;
+    margin-right: -20px;
+    font-size: 13px;
+    width: 150px;
+    height: 32px;
+    color: #575757;
+    background-color: white;
+    padding: 10px 10px 0px 20px;
+
+}
+
+
+.sub-menu{
+    display: none;
+    width: 270px;
+}
+.sub-menu ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #575757;
+}
+.nav-bar ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.nav-bar ul li:hover .sub-menu ul li{
+    width: 170px;
+    padding: 10px;
+    border-bottom: 1px solid #aaaaaa;
+    text-align: left;
+}
+.nav-bar ul li:hover .sub-menu ul li:last-child{
+    border-bottom: none;
+}
+.nav-bar ul li:hover .sub-menu ul li a:hover{
+    color: rgb(255, 141, 26);
+}
+
+
+.logo {
+    width: 185px;
+    margin-bottom: 8px;
+    margin: -16px;
+    right: 15px;
+    padding-right: 30px;
+
+}
+
+
+
+.join {
+    margin-top: 9px;
+    margin-right: -30px;
+    margin-left: 100px;
+    width: 160px;
+    height: 38.4px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.join-primary{
+    color: rgb(255, 141, 26);
+    font-size: 18px;
+    border: 2px solid rgb(255, 141, 26);
+    padding-top: 12px;
+    padding-left: 25px;
+
+}
+
+
+.book {
+    margin-top: 9px;
+    width: 220px;
+    height: 38.4px;
+    text-decoration: none;
+    display: inline-block;
+}
+.book img{
+    filter: invert(100%);
+    margin-right: 20px;
+}
+
+.book-primary{
+    color: white;
+    font-size: 20px;
+    background-color: rgb(255, 141, 26);
+    padding-top: 12px;
+    padding-left: 20px;
+    padding-bottom: 2px;
+    border: 1.5px solid rgb(255, 141, 26);
+}
+
+
+
+/* Home Section */
+#home{
+    padding-top: 70px;
+}
+.header {
+    font-size: 25px;
+}
+
+.header h1 {
+    padding-top: 80px;
+    padding-left: 45px;
+    position: absolute;
+}
+
+.boy {
+    float: right;
+
+}
+
+.boy img {
+    position: relative;
+    width: 700px;
+    padding-top: 150px;
+    padding-right: 20px;
+}
+
+.table1 {
+    background-color: white;
+    width: 38%;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 6px #dbdada;
+    position: absolute;
+    margin-top: 225px;
+    margin-left: 45px;
+
+}
+
+.table1 h2 {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.table1 p {
+    padding-left: 48px;
+    padding-top: 20px;
+    font-size: 15px;
+
+}
+
+.table1 table {
+    margin: auto;
+    margin-top: 2px;
+    border-collapse: collapse;
+    border: 2px solid rgb(182, 181, 181);
+    width: 80%;
+    height: 90px;
+    text-align: center;
+}
+
+.table1 table .td1 {
+    border: 2px solid rgb(182, 181, 181);
+    cursor: pointer;
+}
+
+.table1 table .td1:hover {
+    background-color: rgb(255, 141, 26);
+    color: white;
+}
+
+.table1 a {
+    text-align:center;
+    width: 80%;
+    padding-left: 0px;
+    margin-top: 20px;
+    margin-left: 48px;
+}
+.table1 a img{
+    filter: invert(100%);
+    margin-right: 20px;
+}
+
+
+
+/* Video Section */
+.video iframe {
+    margin-top: 576px;
+    margin-left: 80px;
+    margin-right: 20px;
+    position: absolute;
+    width: 45%;
+    height: 300px;
+}
+
+.video-des {
+    display: inline-block;
+    margin-top: 560px;
+    margin-left: 80px;
+    margin-left: 672px;
+    position: absolute;
+    width: 47%;
+    height: 270px;
+    background-color: white;
+}
+
+.video-des h2 {
+    padding: 14px 40px 10px;
+    font-size: 30px;
+}
+
+.video-des p {
+    color: #575757;
+    padding: 5px 40px 10px;
+    font-size: mediums;
+    line-height: 25px;
+}
+
+.video-des h3 {
+    padding: 5px 40px 10px;
+}
+
+.video-des a {
+    margin-left: 40px;
+}
+
+
+
+/* Card Section */
+.cards{
+    margin-top: 352px;
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(to bottom right,rgb(228, 221, 252)50%,rgb(183, 180, 249)50%);
+    display: inline-block;
+}
+.cards h1{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(87, 67, 190);
+}
+.card{
+    height: 400px;
+    width: 25%;
+    background-color: white;
+    border-radius: 20px;
+    display: inline-block;
+    margin-left: 77px;
+    margin-top: 48px;
+    text-align: center;
+}
+.card-img {
+    text-align: center;
+    width: 300px;
+    margin: 15px 10px 18px;
+    height: 175px;
+}
+.card-img img{
+    width: 170px;
+    padding: 20px;
+}
+.card-detail{
+    margin-top: 25px;
+}
+.card-detail h4{
+    width: 160px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: rgb(228, 226, 253);
+    color: rgb(142, 136, 255);
+    padding-top: 10px;
+    margin-top: 12px;
+    margin-left: 75px;
+}
+.card-detail p{
+    width: 100px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #16a083;
+    color: white;
+    padding: 2px 0px 10px;
+    margin-top: 18px;
+    margin-left: 108px;
+    font-size: 15px;
+}
+.card-detail a{
+    font-size: medium;   
+    padding-left: 0px;
+    margin:10px 30px 0px 32px ;
+    width: 250px;    
+}
+
+
+
+
+/* graph section */
+.content h2{
+    margin: 40px 500px 40px;
+}
+.g-img{
+    display: inline-block;
+    margin-left: 150px;
+    width: 500px;
+}
+.g-img img{
+    width: 400px;
+}
+.g-detail{
+    margin-top: 10px;
+    width: 500px;
+    display: inline-block;
+}
+.g-head{
+    border: 3px solid rgb(255, 141, 26);
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    width: 500px;
+    height: 80px;
+}
+.g-head h5{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.q1{
+    margin-left: 20px;
+}
+.q2{
+    margin-top: 10px;
+    margin-left: 440px;
+}
+.g-detail p{
+    font-size: 13px;
+    line-height: 25px;
+    margin-top: 30px;
+}
+
+
+
+/* Learn section */
+.learn{
+    width: 70%;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 200px;
+    text-align: center;
+}
+.learn h2{
+    padding: 30px 0px;
+}
+.l-patch{
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+}
+.l-img{
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    background-color: #d3fff6;
+    border-radius: 50%;
+    margin: 0px 35px 0px 35px;
+
+}
+.l-img img{
+    margin-top: 20px;
+}
+.l-text{
+    color: #575757;
+    padding: 10px 0px 30px 0px;
+}
+
+
+
+/* edu Section */
+.edu{
+    width: 100%;
+}
+.edu h2{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.teacher-img{
+    text-align: center;
+    display: inline-block;
+    width: 410px;
+    margin: 10px 30px 30px 100px;
+}
+.teacher-img img{
+    width: 400px;
+}
+.edu-detail{
+    display: inline-block;
+    width: 50%;
+    margin: 10px 0px 30px;
+}
+.edu-detail a{
+    margin-top: 30px;
+}
+.edu-detail p{
+    color: #8a8a8a;
+    font-size: small;
+    margin-top: 20px;
+    line-height: 25px;
+}
+.star{
+    padding-top: 10px;
+    height: 30px;
+}
+
+
+
+/* teachers section */
+#teacher-sec {
+    width: 80%;
+    padding: 40px 0px;
+    margin: 0px 130px;
+  }
+  
+.teacher-sec-title {
+    text-align: center;
+ }
+.teacher-sec-content {
+    display: flex;
+    justify-content: space-between;
+    font-size: 19px;
+    padding: 16px;
+  }
+.teacher-sec-photo h2{
+    font-weight: 500;
+    font-size: 25px;
+    padding: 13px 0px 0px 0px;
+}
+.teacher-sec-name{
+    color: #575757;
+    margin: 20px 10px;
+}  
+.teacher-sec-text {
+    font-size: small;
+    color: #aeaeae;
+  }
+  
+.teacher-sec-box {
+    width: 200px;
+    text-align: center;
+    padding: 16px;
+  }
+  
+.teacher-sec-photo img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+  }
+  .teacher-sec-photo img:hover {
+    box-shadow: 2px 2px 10px 6px #dbdada;
+    border: 2px solid rgb(197, 173, 129);
+  }
+
+
+
+  /* purple img section */
+
+  .p-img img{
+    width: 100%;
+    position: relative;
+
+  }
+  .p-text{
+    width: 48%;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 20px;
+    z-index: 12;
+
+  }
+  .p-text p{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 20px;
+  }
+  .btn{
+    margin-left: 20px;
+  }
+
+
+
+
+  /* footer */
+  .footer{
+    margin-left: 65px;
+    padding: 20px 0px;
+  }
+  .f1{
+    color: #aaa;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding:30px 0px 30px 0px;
+    border: 2px solid #ebebeb;
+    border-left: none;
+    border-right: none;
+    margin-left: 30px;
+  }
